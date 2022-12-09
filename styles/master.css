@@ -1,90 +1,113 @@
 html {
-    direction: rtl;
-    background-image: url(Images/IMG_٢٠٢٢١٢٠٦_٢٠٠٨٢٠.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    font-size: 18px;
-    text-shadow: 0 0 0 2px black;
+  direction: rtl;
+  font-size: 18px;
+  text-shadow: 0 0 0 2px black;
 }
 
 body {
-    font-size: 19px;
-    margin: 7px;
+  font-size: 19px;
+  margin: 7px;
+}
+
+/* sections */
+
+.topic-item.container {
+  height: calc(100vh - 100px);
+}
+
+/* Primary section */
+
+#primary-section {
+  background-image: url(../Images/Img-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 h1 {
-    text-align: center;
-    font-size: 170%;
-
+  text-align: center;
+  font-size: 170%;
+  margin: 0;
 }
 
 .row {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 a {
-    color: #5300a0;
-    text-decoration: none;
+  color: #5300a0;
+  text-decoration: none;
 }
 a:hover {
-    color: #ff66ad;
+  color: #ff66ad;
 }
 
 .header-link {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 /* Nav bar */
 
+header {
+  height: 100px;
+}
+
 nav {
-    background-color: #3a3a3a;
-    color: white;
-    width: 100vw;
-    display: grid;
-    margin-right: -7px;
-    margin-top: -7px;
+  background-color: #3a3a3a;
+  color: white;
+  width: 100vw;
+  display: grid;
+  margin-right: -7px;
+  margin-top: -7px;
 }
 
 nav ul li {
-    padding: 3px 2px 2px;
-    margin:  6px 4px 2px;
+  padding: 3px 2px 2px;
+  margin: 6px 4px 2px;
 }
 
 nav ul li a {
-    padding: 5px;
-    margin: 3px;
-    border: 1px solid white;
-    color: #f82c2c
+  padding: 5px;
+  margin: 3px;
+  border: 1px solid white;
+  color: #f82c2c;
 }
 
 nav ul li a:hover {
-    color: #ff66ad;
+  color: #ff66ad;
 }
 
 nav ul .list-unformat {
-    list-style: none;
-    padding-left: 0;
-    align-items: center;
-    text-align: center;
+  align-items: center;
+  text-align: center;
 }
-
+.list-unformat {
+  list-style: none;
+  padding-left: 0;
+}
 .ul-unformat {
-    padding-right: 0;
-    margin: 0;
+  padding-right: 0;
+  margin: 0;
 }
 
 nav > ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 nav > ul li > ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+/* First slide content */
+
 .home-nav-list {
-    font-size: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  height: 75%;
 }
